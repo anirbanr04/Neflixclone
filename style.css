@@ -8,7 +8,7 @@ body {
     height: 700px;
     width: 100%;
     border: 1px solid black;
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/header-image.png)no-repeat center center/cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(./images/header-image.png)no-repeat center center/cover;
     z-index: -1;
 }
 
