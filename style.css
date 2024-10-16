@@ -1,0 +1,403 @@
+body {
+    margin: 0px 0px;
+    padding: 0px 0px;
+
+}
+
+#main {
+    height: 700px;
+    width: 100%;
+    border: 1px solid black;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/header-image.png)no-repeat center center/cover;
+    z-index: -1;
+}
+
+.nav {
+    height: 90px;
+    /* border: 1px solid white; */
+    background-color: rgba(0, 0, 0, 0.527);
+    opacity: 0.98;
+    z-index: -1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+img {
+    height: 40px;
+    width: 143px;
+    margin-left: -125px;
+
+}
+
+.btn {
+    display: flex;
+    height: 60px;
+    width: 290px;
+    /* border: 1px solid white; */
+    margin-right: -165px;
+}
+
+.sizes {
+    width: 150px;
+    height: 40px;
+    background: white;
+    border: 2px solid white;
+    color: white;
+
+}
+
+.btn1 {
+    padding: 8px 18px;
+    border-radius: 5px;
+    margin: auto;
+
+}
+
+.btn1:hover {
+    cursor: pointer;
+    background-color: rgba(255, 0, 0, 0.774);
+
+}
+
+
+.btn1 select {
+
+    width: 145px;
+    height: 35px;
+    margin-left: -18px;
+    margin-top: -7px;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+    border: 1px solid black;
+
+}
+
+.content {
+    height: 300px;
+    width: 80%;
+    /* border: 1px solid white; */
+    /* margin: 95px 105px; */
+    text-align: center;
+    margin: auto;
+    margin-top: 155px;
+
+
+
+}
+
+.color {
+    color: white;
+
+}
+
+.size {
+    font-size: 2.4rem;
+    font-weight: 800;
+}
+
+.colors {
+    background-color: red;
+    color: white;
+    font-weight: 700;
+}
+
+.email input {
+    padding: 19px 13px;
+    width: 355px;
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+
+}
+
+.email input::placeholder {
+    font-size: 1.1rem;
+    color: white;
+
+
+
+}
+
+.email .submit {
+    padding: 12px 55px;
+    font-size: 1.4rem;
+    background-color: red;
+    color: white;
+    border-radius: 6px;
+
+
+}
+
+.email input:hover::placeholder {
+    font-size: 0.8rem;
+
+}
+
+.email .submit:hover {
+    cursor: pointer;
+    background-color: rgba(255, 0, 0, 0.774);
+}
+
+.box {
+    height: 500px;
+    width: 100%;
+    border-top: 9px solid rgba(255, 255, 255, 0.26);
+    border-bottom: 9px solid rgba(255, 255, 255, 0.26);
+    background-color: black;
+}
+
+.box .boxs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid white; */
+
+    width: 90%;
+    margin-left: 120px;
+    gap: 0px;
+    text-align: left;
+
+
+
+
+}
+
+.box .boxs img {
+
+    height: 400px;
+    width: 500px;
+    margin: 10px 90px;
+}
+
+.box .boxs .text {
+    /* border: 1px solid white; */
+    width: 400px;
+
+
+
+}
+
+.box video {
+
+    height: 365px;
+    width: 370px;
+    top: -405px;
+    left: 738px;
+    position: relative;
+
+}
+
+.box .vdo {
+
+    height: 365px;
+    width: 338px;
+    top: -460px;
+    left: 750px;
+}
+
+.box2 {
+    height: 500px;
+    width: 100%;
+    /* border: 1px solid rgb(255, 255, 255); */
+    background-color: black;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.box2 img {
+    height: 400px;
+    width: 450px;
+
+}
+
+.newtext {
+    margin-left: 120px;
+    /* border: 1px solid white; */
+    height: 250px;
+    width: 28%;
+}
+
+#faq {
+    /* height: 1000px; */
+    width: 100%;
+    border-top: 9px solid rgba(255, 255, 255, 0.384);
+    background-color: black;
+}
+
+.faqq {
+    height: 1000px;
+}
+
+.faqs {
+    height: 1200px;
+}
+
+.faqss {
+    height: 1100px;
+}
+
+
+
+.newsize {
+    text-align: center;
+}
+
+.faqbox {
+    height: 700px;
+    width: 80%;
+    /* border: 1px solid white; */
+    margin: auto;
+}
+
+.faqbox .que {
+    height: 100px;
+    width: 100%;
+    margin: 9px 0px;
+    color: white;
+    font-size: 1.7rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(128, 128, 128, 0.363);
+}
+
+/* toggle 1-------- */
+.faqbox .ans {
+    height: 0px;
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.363);
+    transition: 0.4s ease;
+}
+/* text toggle */
+.faqbox .ans .h3 {
+    color: white;
+    display: none;
+}
+
+.faqbox .ans .texts {
+    color: white;
+    display: block;
+    font-size: 1.3rem;
+
+}
+
+.faqbox .ans1 {
+    height: 180px;
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.363);
+}
+/* toggle2------------ */
+
+.faqbox .an {
+    height: 0px;
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.363);
+    transition: 0.8s ease;
+}
+
+.faqbox .an1 {
+    height: 100px;
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.363);
+}
+.faqbox .an .h3{
+    color: white;
+    display: none;
+}
+
+.faqbox .an .texts{
+    color: white;
+    display: block;
+    font-size: 1.3rem;
+
+}
+
+
+
+.faqbox .que:hover {
+    cursor: pointer;
+    background-color: rgba(128, 128, 128, 0.596);
+
+}
+
+i{
+    color: white;
+    font-size: 2.5rem;
+    margin-left: 1000px;
+    float: right;
+    margin-top: -90px;
+    position: absolute;
+   
+
+}
+
+i:hover {
+    cursor: pointer;
+}
+
+#faq .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    /* margin-top: 200px; */
+}
+
+.infos {
+    margin-top: 200px;
+}
+.infoss{
+    margin-top: 90px;
+  
+}
+
+#footer {
+    height: 400px;
+    width: 100%;
+    border-top: 9px solid rgba(255, 255, 255, 0.384);
+    background-color: black;
+}
+
+#footer p {
+    margin-left: 213px;
+    margin-bottom: -2px;
+    margin-top: 58px;
+    color: rgba(255, 255, 255, 0.651);
+}
+
+p a {
+    color: rgba(255, 255, 255, 0.651);
+}
+
+
+#footer .item {
+    display: flex;
+    height: 300px;
+    width: 80%;
+    border: 1px solid black;
+    margin: auto;
+
+}
+
+.item .items {
+    margin: 18px 20px;
+}
+
+.item .items li {
+    list-style-type: none;
+
+}
+
+.item .items li a {
+    color: rgba(255, 255, 255, 0.651);
+    font-size: 1rem;
+}
